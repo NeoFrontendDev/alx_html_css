@@ -1,17 +1,25 @@
+/* Apply Flexbox to both body and main containers */
 body {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
+
+/* Main container should also be a flexbox */
 main {
-  display: flex;
-  flex-direction: row;
-  flex: auto;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
 }
+
+/* Make article take 2/3 of the width */
 article {
-  flex: 2;
-  overflow-y: auto;
+    flex: 2;
+    overflow-y: auto;
 }
+
+/* Make aside take 1/3 of the width */
 aside {
-  flex: 1;
-  overflow-y: auto;
+    flex: 1;
+    overflow-y: auto;
 }
