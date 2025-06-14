@@ -1,1 +1,147 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #071629;
+}
 
+/* Header and Navbar*/
+header {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 20px 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 60px;
+    padding-bottom: 0;
+    height: 29.46px;
+}
+
+.logo {
+    height: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-left: 80px;
+    padding-left: 80px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Hero Section*/
+.hero {
+    position: relative;
+    width: 1340px;
+    height: 1093px;
+    margin: 0 auto;
+    background-image: url("project_images/Object.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 22, 41, 0.85);
+    z-index: 0;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 150px;
+    margin-bottom: 1px;
+}
+
+.hero span {
+    color:#ffffff;
+    margin-left: 14px;
+    margin-right: 18px;
+    margin-top: 10px;
+    margin-bottom: 0 auto;
+}
+
+.hero button {
+    margin-top: 40px;
+    padding: 20px 30px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #c271ff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/*Pros Section*/
+.pros {
+    position: relative;
+    z-index: 1;
+    margin-top: 60px;
+}
+
+.pros h2 {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.pros-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.pros-grid div {
+    text-align: center;
+    width: 150px;
+}
+
+.pros-grid img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.pros-grid h3 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+.pros-grid p {
+    font-size: 12px;
+    color: #cfcfcf;
+}
