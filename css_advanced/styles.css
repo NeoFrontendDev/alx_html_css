@@ -184,3 +184,99 @@ header {
     font-size: 0.9em;
     text-indent: 40px;
 }
+
+.popular-tutorials {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 60px 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.popular-tutorials h2 {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 40px;
+  color: #000000;
+}
+
+.text-color {
+    color: #c271ff;
+}
+
+.tutorials-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.tutorial-card {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 12px;
+  width: 270px;
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tutorial-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.tutorial-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.tutorial-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.play-button {
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 100px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  color: #c271ff;
+}
+
+.author img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.author h4 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+  margin: 0;
+}
+
+.duration {
+  font-size: 12px;
+  color: #888;
+  text-align: right;
+  margin-top: auto;
+}
