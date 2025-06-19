@@ -1,1 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background-color: #071629;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 30px;
+}
+
+.navlinks {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navlinks li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.navlinks li a:hover {
+  color: #FF6565;
+}
+
+.hero {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(41, 48, 61, 0.7), rgba(7, 22, 41, 0.9)),
+    url("images/headphones_hero_1.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 20px;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  padding-top: 250px;
+}
+
+.hero-text {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.hero button {
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #FF6565;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.hero-words {
+  font-size: 1rem;
+  padding: 0 10%;
+  line-height: 1.5;
+}
+
+/* === Responsive === */
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color:#ffffff;
+}
+
+@media (max-width: 480px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .navlinks {
+    display: none;
+    flex-direction: column;
+    background-color: #071629;
+    width: 40%;
+    margin-top: 10px;
+    padding: 10px 0;
+  }
+
+  .navlinks.show {
+    display: flex;
+  }
+
+  .navlinks li {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .hero-heading {
+    font-size: 1.5rem;
+    padding-top: 50px;
+  }
+
+  .hero-words {
+    padding: 0 5%;
+    font-size: 0.9rem;
+  }
+
+  .hero button {
+    width: 70%;
+  }
+}
