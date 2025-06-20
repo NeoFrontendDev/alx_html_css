@@ -148,9 +148,12 @@ header {
 }
 
 .section-desc {
-    font-size: 1rem;
-    padding: 20px 160px;
-    line-height: 1.4rem;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 0 20px;
+    max-width: 800px;
+    margin: 0 auto 40px;
 }
 
 .container {
