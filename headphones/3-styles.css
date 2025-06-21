@@ -143,6 +143,7 @@ header {
   .percentage-container {
     flex-direction: column;
     align-items: center;
+    max-width: 480px;
   }
 
   .percentage {
