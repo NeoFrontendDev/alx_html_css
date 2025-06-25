@@ -280,3 +280,55 @@ header {
   text-align: right;
   margin-top: auto;
 }
+
+.membership-section {
+    background-color: #071629;
+    width: auto;
+    height: 502px;
+    padding-bottom: 60px;
+}
+
+.membership-text-color {
+    color: #c271ff;
+}
+
+.membership-section h2 {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.membership-info {
+    display: flex;
+    gap: 20px;
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+.membership-icon img {
+    margin-left: 120px;
+}
+
+.membership-heading {
+    text-align: center;
+    font-size: 25px;
+}
+
+.membership-text {
+    text-align: center;
+}
+
+.register-button {
+    margin-top: 40px;
+    padding: 20px 30px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #c271ff;
+    border: none;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 550px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
