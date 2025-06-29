@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     color: #ffffff;
     background-color: #071629;
+    height: 1094px;
 }
 
 /* Header and Navbar*/
@@ -49,14 +50,18 @@ header {
 .hero {
     position: relative;
     width: 1340px;
-    height: 1093px;
+    height: 1055px;
     margin: 0 auto;
-    background-image: url("project_images/Object.png");
+    background-image:
+        linear-gradient(to bottom, rgba(41, 48, 61, 0.1) 0.02%,
+         rgba(7, 22, 41, 0.1)),
+        url("project_images/Object.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     overflow: hidden;
+    
 }
 
 .hero::before {
@@ -105,11 +110,11 @@ header {
     cursor: pointer;
 }
 
-/*Pros Section*/
 .pros {
     position: relative;
     z-index: 1;
     margin-top: 60px;
+    padding-bottom: 30px;
 }
 
 .pros h2 {
@@ -123,6 +128,7 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
+    margin-bottom: 20px;
 }
 
 .pros-grid div {
@@ -362,4 +368,35 @@ header {
 .FAQ-answer {
     font-size: 14px;
     line-height: 1.6;
+}
+
+footer {
+    height: 249px;
+    width: auto;
+}
+
+.endnav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+
+.social-icons i {
+    height: 37px;
+    width: auto;
+
+}
+
+.end-logo {
+    height: 37px;
+    width: auto;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 15px;
+    color: #555;
 }
